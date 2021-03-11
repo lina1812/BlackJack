@@ -11,6 +11,6 @@ class User
   end
 
   def print_deck
-    puts "You card: #{@hand_deck}"
+    @hand_deck.to_s
   end
 end

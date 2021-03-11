@@ -6,11 +6,11 @@ class Dealer
   include Player
 
   def print_hidden_deck
-    puts "Dealer's cards :#{' *' * cards_count}"
+    ' *' * cards_count
   end
 
   def print_deck
-    puts "Dealer's cards: #{@hand_deck}"
+    @hand_deck.to_s
   end
 
   def turn
